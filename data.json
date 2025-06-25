@@ -1,0 +1,144 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "Довод",
+        "poster": "image/dovod.jpg",
+        "sessions": ["09:00", "12:30", "16:15", "20:00"],
+        "genre": "боевик"
+      },
+      {
+        "id": 2,
+        "title": "Интерстеллар",
+        "poster": "image/interstellar.jpg",
+        "sessions": ["10:15", "14:00", "18:30", "22:15"],
+        "genre": "фантастика"
+      },
+      {
+        "id": 3,
+        "title": "Зеленая миля",
+        "poster": "image/green_mile.jpg",
+        "sessions": ["11:00", "15:45", "19:30"],
+        "genre": "драма"
+      },
+      {
+        "id": 4,
+        "title": "Побег из Шоушенка",
+        "poster": "image/shawshank.jpg",
+        "sessions": ["13:00", "17:30", "21:15"],
+        "genre": "драма"
+      },
+      {
+        "id": 5,
+        "title": "Крестный отец",
+        "poster": "image/godfather.jpg",
+        "sessions": ["12:15", "16:45", "20:30"],
+        "genre": "криминал"
+      },
+      {
+        "id": 6,
+        "title": "Форрест Гамп",
+        "poster": "image/forrest_gump.jpg",
+        "sessions": ["10:30", "14:15", "18:00", "21:45"],
+        "genre": "драма"
+      },
+      {
+        "id": 7,
+        "title": "Начало",
+        "poster": "image/inception.jpg",
+        "sessions": ["11:45", "15:30", "19:15", "23:00"],
+        "genre": "фантастика"
+      },
+      {
+        "id": 8,
+        "title": "Матрица",
+        "poster": "image/matrix.jpg",
+        "sessions": ["09:30", "13:15", "17:00", "20:45"],
+        "genre": "фантастика"
+      },
+      {
+        "id": 9,
+        "title": "Темный рыцарь",
+        "poster": "image/dark_knight.jpg",
+        "sessions": ["10:00", "14:30", "18:15", "22:00"],
+        "genre": "боевик"
+      },
+      {
+        "id": 10,
+        "title": "Паразиты",
+        "poster": "image/parasite.jpg",
+        "sessions": ["12:45", "16:30", "20:15"],
+        "genre": "триллер"
+      },
+      {
+        "id": 11,
+        "title": "Джокер",
+        "poster": "image/joker.jpg",
+        "sessions": ["11:15", "15:00", "18:45", "22:30"],
+        "genre": "триллер"
+      },
+      {
+        "id": 12,
+        "title": "Аватар",
+        "poster": "image/avatar.jpg",
+        "sessions": ["09:15", "13:00", "16:45", "20:30"],
+        "genre": "фантастика"
+      },
+      {
+        "id": 13,
+        "title": "Титаник",
+        "poster": "image/titanic.jpg",
+        "sessions": ["10:45", "14:30", "18:15"],
+        "genre": "мелодрама"
+      },
+      {
+        "id": 14,
+        "title": "Гладиатор",
+        "poster": "image/gladiator.jpg",
+        "sessions": ["12:00", "15:45", "19:30", "23:15"],
+        "genre": "история"
+      },
+      {
+        "id": 15,
+        "title": "Леон",
+        "poster": "image/leon.jpg",
+        "sessions": ["11:30", "15:15", "19:00"],
+        "genre": "боевик"
+      },
+      {
+        "id": 16,
+        "title": "Бойцовский клуб",
+        "poster": "image/fight_club.jpg",
+        "sessions": ["13:15", "17:00", "20:45"],
+        "genre": "триллер"
+      },
+      {
+        "id": 17,
+        "title": "Пианист",
+        "poster": "image/pianist.jpg",
+        "sessions": ["10:15", "14:00", "17:45"],
+        "genre": "драма"
+      },
+      {
+        "id": 18,
+        "title": "1+1",
+        "poster": "image/intouchables.jpg",
+        "sessions": ["12:30", "16:15", "20:00"],
+        "genre": "комедия"
+      },
+      {
+        "id": 19,
+        "title": "Криминальное чтиво",
+        "poster": "image/pulp_fiction.jpg",
+        "sessions": ["11:00", "14:45", "18:30", "22:15"],
+        "genre": "криминал"
+      },
+      {
+        "id": 20,
+        "title": "ВАЛЛ·И",
+        "poster": "image/walle.jpg",
+        "sessions": ["09:45", "13:30", "17:15"],
+        "genre": "мультфильм"
+      }
+    ]
+  }
