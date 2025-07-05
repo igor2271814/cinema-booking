@@ -5,53 +5,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Кинотеатр | Бронирование</title>
+    <link rel="icon" href="image/icon.png" sizes="any">
     <link rel="stylesheet" href="style/CSS/style.css">
+    <link rel="stylesheet" href="style/CSS/itc-slider.css">
 </head>
 
 <body>
     <header>
-        <h1>🍿 Афиша кинотеатра</h1>
+        <nav>
+            <a href="cinema.html" class="nav-link">🎬 Кинотеатры</a>
+            <a href="promo.html" class="nav-link">🔥 Акции</a>
+            <a href="merch.html" class="nav-link">🥼 Мерч</a>  
+            <button id="theme-toggle" onclick="toggleTheme()">🌙</button></nav>
     </header>
-
-    <main>
-        <div class="filters">
-            <button onclick="renderMovies('all')">Все фильмы</button>
-            <button onclick="renderMovies('фантастика')">Фантастика</button>
-            <button onclick="renderMovies('драма')">Драмы</button>
-            <button onclick="renderMovies('боевик')">Боевики</button>
-            <button onclick="renderMovies('комедия')">Комедии</button>
-            <button onclick="renderMovies('триллер')">Триллеры</button>
-        </div>
-
-        <div id="movies-list" class="movies-grid"></div>
-    </main>
-
-    <!-- Модальное окно сеансов -->
-    <div id="modal" class="modal hidden">
-        <div class="modal-content">
-            <span id="close-modal" class="close">&times;</span>
-            <h2 id="modal-title"></h2>
-            <div id="sessions-container"></div>
-        </div>
+    <div class="news">
+        
     </div>
-
-    <!-- Модальное окно выбора мест -->
-    <div id="seats-modal" class="modal hidden">
-        <div class="modal-content">
-            <span id="close-seats-modal" class="close">&times;</span>
-            <h2 id="seats-movie-title"></h2>
-            <p id="seats-session-time"></p>
-
-            <div id="hall-container">
-                <div class="screen">ЭКРАН</div>
-                <div id="seats-grid" class="seats-grid"></div>
+    <div class="itc-slider" data-slider="itc-slider" data-autoplay="false" data-interval="7000">
+        <div class="itc-slider-wrapper">
+            <div class="itc-slider-items">
+                <div class="itc-slider-item">
+                    <!-- Контент первого слайда -->
+                    <img src="image/inet_poster.jpg" alt="">
+                </div>
+                <div class="itc-slider-item">
+                    <!-- Контент второго слайда -->
+                    <img src="image/dovod_poster.jpg" alt="">
+                </div>
+                <div class="itc-slider-item">
+                    <!-- Контент третьего слайда -->
+                    <img src="image/avatar_poster.jpg" alt="">
+                </div>
+                <div class="itc-slider-item">
+                    <!-- Контент четвертого слайда -->
+                    <img src="image/dark_knight_poster.jpg" alt="">
+                </div>
+                
             </div>
-
-            <button id="confirm-booking" class="book-btn">Забронировать</button>
+        </div>
+    
+        <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+        <ol class="itc-slider-indicators">
+            <!-- Индикатор для перехода к первому слайду -->
+            <li class="itc-slider-indicator" data-slide-to="0"></li>
+            <!-- Индикатор для перехода ко второму слайду -->
+            <li class="itc-slider-indicator" data-slide-to="1"></li>
+            <!-- Индикатор для перехода к третьему слайду -->
+            <li class="itc-slider-indicator" data-slide-to="2"></li>
+            <!-- Индикатор для перехода к четвертому слайду -->
+            <li class="itc-slider-indicator" data-slide-to="3"></li>
+        </ol>
+    </div>
+    <div id="promo-modal" class="modal hidden">
+        <div class="modal-content">
+            <span id="close-promo-modal" class="close">&times;</span>
+            <h2>Добро пожаловать!</h2>
+            <p>Спасибо, что выбрали нас! Получите скидку 10% на первый заказ.</p>
+            <button id="promo-close-btn">Закрыть</button>
         </div>
     </div>
-
+    <footer class="footer">
+        <div class="container">
+            <p>Контакты:</p>
+            <ul>
+                <li><strong>Адрес:</strong> Москва, ул. Кинотеатральная, д. 12</li>
+                <li><strong>Телефон:</strong> +7 (123) 456-78-90</li>
+                <li><strong>Email:</strong> info@kinoteatr.ru</li>
+            </ul>
+        </div>
+        </footer>
     <script src="script.js"></script>
+    <script src="itc-slider.js"></script>
 </body>
 
 </html>

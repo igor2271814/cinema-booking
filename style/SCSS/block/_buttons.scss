@@ -1,0 +1,72 @@
+.filters {
+    display: flex;
+    gap: $spacing-sm;
+    margin: $spacing 0;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @media (max-width: $breakpoint-md) {
+        gap: 8px;
+    }
+
+    button {
+        padding: 8px 16px;
+        background: $accent;
+        color: $white;
+        border: none;
+        border-radius: $border-radius-sm;
+        cursor: pointer;
+        transition: all 0.3s;
+        font-size: 14px;
+
+        @media (max-width: $breakpoint-md) {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        &:hover {
+            background: darken($accent, 5%);
+            transform: translateY(-2px);
+        }
+    }
+}
+
+.session-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    background: $accent;
+    color: $white;
+    border: none;
+    border-radius: $border-radius-sm;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: $font-size-base;
+
+    &:hover {
+        background: darken($accent, 5%);
+    }
+}
+
+.book-btn {
+    background: #2196f3;
+    color: $white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: $border-radius-sm;
+    cursor: pointer;
+    font-size: $font-size-base;
+    margin-top: $spacing;
+    width: 100%;
+    transition: background 0.3s;
+
+    &:hover:not(:disabled) {
+        background: darken(#2196f3, 5%);
+    }
+
+    &:disabled {
+        background: #cccccc;
+        cursor: not-allowed;
+    }
+}

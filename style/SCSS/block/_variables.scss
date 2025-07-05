@@ -1,0 +1,43 @@
+// Цвета
+$primary: #6a11cb;
+$secondary: #2575fc;
+$accent: #4caf50;
+$error: #f44336;
+$background: #dcdcdc;
+$text: #333;
+$white: #fff;
+$gray: #aaa;
+$dark-gray: #666;
+
+// Размеры
+$border-radius: 8px;
+$border-radius-sm: 4px;
+$box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+$box-shadow-hover: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+// Отступы
+$spacing: 20px;
+$spacing-lg: 30px;
+$spacing-sm: 10px;
+
+// Шрифты
+$font-family: "Arial", sans-serif;
+$font-size-base: 16px;
+$font-size-lg: 2.2rem;
+$font-size-sm: 12px;
+
+// Брейкпоинты
+$breakpoint-md: 768px;
+
+// Цвета для темной темы
+$dark-primary: #333;
+$dark-secondary: #555;
+$dark-accent: #4caf50;
+$dark-error: #f44336;
+$dark-background: #121212;
+$dark-modal: #2a2a2a;
+$dark-text: #fff;
+$dark-gray: #aaa;
+
+// Переменная для определения текущей темы
+$is-dark-mode: false !default;

@@ -1,0 +1,17 @@
+.footer {
+    margin-top: $spacing-lg;
+    padding: $spacing;
+    text-align: center;
+    background-color: var(--background);
+    color: var(--text);
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin-bottom: $spacing-sm;
+        }
+    }
+}

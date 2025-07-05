@@ -1,5 +1,5 @@
 {
-    "movies": [
+    "cinema1": [
       {
         "id": 1,
         "title": "Довод",
@@ -34,7 +34,9 @@
         "poster": "image/godfather.jpg",
         "sessions": ["12:15", "16:45", "20:30"],
         "genre": "криминал"
-      },
+      }
+    ],
+    "cinema2": [
       {
         "id": 6,
         "title": "Форрест Гамп",
